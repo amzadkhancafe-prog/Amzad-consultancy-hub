@@ -1,0 +1,6 @@
+{
+  "name": "Amzad Consultancy Hub & Advisory",
+  "description": "Premier Indian financial consultancy led by Md Amzad Khan offering home loans, personal loans, business loans, and financial planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

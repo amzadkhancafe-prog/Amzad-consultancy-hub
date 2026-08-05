@@ -1,0 +1,6 @@
+# Amzad Finance Hub - Robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://amzadfinance.com/sitemap.xml

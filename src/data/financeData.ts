@@ -1,0 +1,215 @@
+import { ServiceItem, FeatureCard, StatItem, Testimonial, FAQItem } from '../types';
+
+export const servicesData: ServiceItem[] = [
+  {
+    id: 'personal-loan',
+    title: 'Personal Loan',
+    category: 'loan',
+    description: 'Instant collateral-free personal loans for medical emergencies, weddings, travel, or debt consolidation.',
+    iconName: 'UserCheck',
+    rate: 'From 9.99% p.a.',
+    maxAmount: 'Up to ₹40 Lakh',
+    tenure: '12 to 84 Months',
+    features: ['Zero collateral required', '24-hour instant approval', 'Minimal documentation', 'Flexible repayment tenure'],
+    popular: true,
+  },
+  {
+    id: 'home-loan',
+    title: 'Home Loan & Refinancing',
+    category: 'loan',
+    description: 'Turn your dream house into reality with low interest rates and extended repayment options.',
+    iconName: 'Home',
+    rate: 'From 7.50% p.a.',
+    maxAmount: 'Up to ₹2 Crore',
+    tenure: 'Up to 30 Years',
+    features: ['Up to 90% property funding', 'Doorstep document pickup', 'Tax savings under Section 80C', 'Easy balance transfer'],
+    popular: true,
+  },
+  {
+    id: 'business-loan',
+    title: 'Business & MSME Loan',
+    category: 'loan',
+    description: 'Capital boost for business expansion, equipment purchase, inventory, or working capital.',
+    iconName: 'Briefcase',
+    rate: 'From 10.50% p.a.',
+    maxAmount: 'Up to ₹5 Crore',
+    tenure: '12 to 60 Months',
+    features: ['No collateral for up to ₹50 Lakh', 'Customized repayment schedule', 'Quick working capital disbursal', 'Pre-approved limits available'],
+  },
+  {
+    id: 'health-insurance',
+    title: 'Health & Medical Insurance',
+    category: 'insurance',
+    description: 'Comprehensive coverage against unforeseen medical expenses for you and your family.',
+    iconName: 'ShieldCheck',
+    rate: 'Custom Premiums',
+    maxAmount: 'Up to ₹1 Crore Cover',
+    tenure: 'Annual / Multi-Year',
+    features: ['Cashless treatment at 10,000+ hospitals', 'No claim bonus up to 100%', 'Pre & post-hospitalization covered', '24/7 claim assistance'],
+    popular: true,
+  },
+  {
+    id: 'life-term-insurance',
+    title: 'Term Life Insurance',
+    category: 'insurance',
+    description: 'Secure your family’s financial future with high sum assured policies at affordable premiums.',
+    iconName: 'HeartPulse',
+    rate: 'Starts at ₹999/month',
+    maxAmount: 'Up to ₹1.5 Crore',
+    tenure: 'Up to 75 Years Age',
+    features: ['Critical illness rider options', 'Accidental death benefit', 'Zero-hassle online claims', 'Tax benefits available'],
+  },
+  {
+    id: 'property-advisory',
+    title: 'Property Investment Advisory',
+    category: 'property',
+    description: 'Expert guidance on purchasing verified commercial & residential properties with high ROI potential.',
+    iconName: 'Building2',
+    rate: 'Free Initial Advisory',
+    maxAmount: 'Tailored Options',
+    tenure: 'Long-Term Growth',
+    features: ['Legal title check verified', 'High-growth urban locations', 'Assistance with home loan setup', 'Rental yield analysis'],
+  },
+  {
+    id: 'wealth-management',
+    title: 'Wealth & Portfolio Management',
+    category: 'wealth',
+    description: 'Personalized wealth creation strategies, mutual funds, SIPs, and fixed yield portfolios.',
+    iconName: 'TrendingUp',
+    rate: 'Target 12-15% Annual ROI',
+    maxAmount: 'Flexible Capital',
+    tenure: 'Goal-Based Plans',
+    features: ['Dedicated Financial Planner', 'Quarterly portfolio rebalancing', 'Tax-optimized investment plans', 'Risk-calibrated strategies'],
+  },
+];
+
+export const featureCardsData: FeatureCard[] = [
+  {
+    id: 'instant-approval',
+    title: '100% Digital Pre-Approval',
+    description: 'Check loan offers and get instant pre-approval in under 3 minutes with digital KYC.',
+    iconName: 'Zap',
+    badge: 'Fastest in Market',
+  },
+  {
+    id: 'best-rates',
+    title: 'Guaranteed Lowest Rates',
+    description: 'We partner with 15+ top banks to fetch you lowest interest rates with zero hidden charges.',
+    iconName: 'Percent',
+    badge: 'Best Deal Promise',
+  },
+  {
+    id: 'secure-data',
+    title: 'Bank-Grade Data Encryption',
+    description: 'Your personal financial details are protected with 256-bit SSL encryption and strict privacy policies.',
+    iconName: 'Lock',
+    badge: '256-Bit SSL',
+  },
+  {
+    id: 'expert-advisor',
+    title: 'Dedicated Financial Advisor',
+    description: 'Guided directly by Md Amzad Khan & team from application to final bank disbursal.',
+    iconName: 'Headphones',
+    badge: '1-on-1 Support',
+  },
+];
+
+export const statsData: StatItem[] = [
+  {
+    value: '5000+',
+    label: 'Happy Customers',
+    description: 'Satisfied families and entrepreneurs served across India.',
+  },
+  {
+    value: '₹100+ Cr',
+    label: 'Loan Assistance',
+    description: 'Total capital sanctioned across personal, home & business loans.',
+  },
+  {
+    value: '15+',
+    label: 'Banking & NBFC Partners',
+    description: 'Top Indian banks and RBI-regulated lending institutions.',
+  },
+  {
+    value: '98%',
+    label: 'Customer Satisfaction',
+    description: 'High approval success rate through personalized guidance.',
+  },
+];
+
+export const testimonialsData: Testimonial[] = [
+  {
+    id: 't1',
+    name: 'Ramesh Kumar',
+    role: 'Retail Business Owner',
+    location: 'Patna, Bihar',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200',
+    rating: 5,
+    content: 'Md Amzad Khan personally guided me through the business loan sanction. Got ₹25 Lakhs sanctioned at 10.50% interest within 3 working days!',
+    serviceUsed: 'Business Loan',
+    verified: true,
+  },
+  {
+    id: 't2',
+    name: 'Anita Sharma',
+    role: 'Government School Teacher',
+    location: 'Bhagalpur, Bihar',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=200',
+    rating: 5,
+    content: 'I was struggling with home loan approvals due to complex property documentation. Amzad Consultancy Hub handled everything seamlessly. Home loan approved @ 7.50%!',
+    serviceUsed: 'Home Loan',
+    verified: true,
+  },
+  {
+    id: 't3',
+    name: 'Vikramaditya Singh',
+    role: 'Civil Engineer',
+    location: 'Ranchi, Jharkhand',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200',
+    rating: 5,
+    content: 'Needed urgent personal funds for a family medical emergency. Amzad Consultancy Hub helped me secure ₹8 Lakhs collateral-free personal loan in less than 24 hours!',
+    serviceUsed: 'Personal Loan',
+    verified: true,
+  },
+];
+
+export const faqData: FAQItem[] = [
+  {
+    id: 'f1',
+    question: 'What documents are required for a personal loan application?',
+    answer: 'Standard required documents include proof of identity (Aadhaar / PAN), proof of address, income proof (last 3 months bank statements & salary slips), and ITR records if self-employed.',
+    category: 'loans',
+  },
+  {
+    id: 'f2',
+    question: 'How fast can I get loan approval and disbursal?',
+    answer: 'Through our digital pre-approval process guided by Md Amzad Khan, initial eligibility is checked instantly. Final bank disbursal generally takes between 12 to 48 hours.',
+    category: 'process',
+  },
+  {
+    id: 'f3',
+    question: 'Are there any hidden fees or upfront service charges?',
+    answer: 'No. Amzad Consultancy Hub & Advisory operates on 100% transparency with zero hidden charges. All loan terms, interest rates, and official bank processing fees are disclosed explicitly prior to contract signing.',
+    category: 'general',
+  },
+  {
+    id: 'f4',
+    question: 'Can I apply for a loan if my CIBIL credit score is low?',
+    answer: 'Yes! While higher credit scores unlock the lowest interest rates, we work with 15+ banking partners who cater to individuals building or repairing their credit history.',
+    category: 'loans',
+  },
+  {
+    id: 'f5',
+    question: 'How can I directly consult with Md Amzad Khan?',
+    answer: 'You can call directly on +91 8355882124 or message on WhatsApp for instant 1-on-1 financial advisory regarding your loan or investment requirements.',
+    category: 'general',
+  },
+  {
+    id: 'f6',
+    question: 'Does checking my loan eligibility lower my CIBIL score?',
+    answer: 'Checking your loan eligibility on Amzad Consultancy Hub initiates a soft inquiry only, which has ZERO impact on your official CIBIL credit score.',
+    category: 'general',
+  },
+];
+
+
