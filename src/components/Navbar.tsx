@@ -60,9 +60,11 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode, onOpenEli
           
           {/* Brand Logo */}
           <a href="#home" className="flex items-center space-x-3 group">
-            <div className="w-11 h-11 rounded-xl bg-gradient-to-tr from-red-600 to-red-500 flex items-center justify-center text-white shadow-md shadow-red-500/20 group-hover:scale-105 transition-transform">
-              <Shield className="w-6 h-6 stroke-[2.2]" />
-            </div>
+            <img
+  src="/logo.png.jpg"
+  alt="Amzad Consultancy Logo"
+  className="w-11 h-11 object-contain"
+/>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg sm:text-xl tracking-tight text-slate-900 dark:text-white flex items-center">
                 AMZAD <span className="text-red-600 ml-1.5 font-bold">CONSULTANCY</span>
