@@ -61,7 +61,7 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode, onOpenEli
           {/* Brand Logo */}
           <a href="#home" className="flex items-center space-x-3 group">
             <img
-  src="/logo.png.jpg"
+  src="/logo.png.jpeg"
   alt="Amzad Consultancy Logo"
   className="w-11 h-11 object-contain"
 />
