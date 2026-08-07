@@ -69,9 +69,11 @@ export const Footer: React.FC<FooterProps> = ({ onOpenLegalModal }) => {
           {/* Brand Info */}
           <div className="lg:col-span-2 space-y-4">
             <a href="#home" className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-red-600 to-red-500 flex items-center justify-center text-white shadow-md">
-                <Shield className="w-5 h-5" />
-              </div>
+              <img
+  src="/logo.png.jpeg"
+  alt="Amzad Consultancy Logo"
+  className="w-10 h-10 object-contain"
+/>
               <div className="flex flex-col">
                 <span className="font-extrabold text-xl tracking-tight text-white flex items-center">
                   AMZAD <span className="text-red-500 ml-1.5 font-bold">CONSULTANCY</span>
