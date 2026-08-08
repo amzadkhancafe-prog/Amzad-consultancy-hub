@@ -67,7 +67,8 @@ export default function App() {
           onOpenEligibility={() => setEligibilityModalOpen(true)}
           onOpenEmiNotice={() => setEmiNoticeModalOpen(true)}
         />
-
+{/* About Me Section */}
+<AboutMe />
         {/* Services Section */}
         <Services onSelectService={handleSelectService} />
 
