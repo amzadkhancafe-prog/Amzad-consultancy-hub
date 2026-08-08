@@ -11,6 +11,16 @@ export function AboutMe() {
 
           {/* Left Side */}
           <div>
+
+            {/* Profile Photo - Added */}
+            <div className="mb-8 flex justify-center md:justify-start">
+              <img
+                src="/amzad-photo.jpeg"
+                alt="Md Amzad Khan - Loan & Financial Consultant"
+                className="w-48 h-48 object-cover rounded-full border-4 border-red-100 dark:border-red-500/20 shadow-lg"
+              />
+            </div>
+
             <span className="inline-block px-4 py-2 mb-4 rounded-full bg-red-100 dark:bg-red-500/10 text-red-600 dark:text-red-400 font-semibold text-sm">
               About Me
             </span>
