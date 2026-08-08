@@ -12,6 +12,7 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode, onOpenEli
 
   const navLinks = [
     { name: 'Home', href: '#home' },
+    { name: 'About Me', href: '#about-me' },
     { name: 'Services', href: '#services' },
     { name: 'Tools', href: '#tools' },
     { name: 'Features', href: '#features' },
