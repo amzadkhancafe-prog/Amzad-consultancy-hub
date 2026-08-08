@@ -11,16 +11,17 @@ export const Navbar: React.FC<NavbarProps> = ({ darkMode, setDarkMode, onOpenEli
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '#home' },
-    { name: 'About Me', href: '#about-me' },
-    { name: 'Services', href: '#services' },
-    { name: 'Tools', href: '#tools' },
-    { name: 'Features', href: '#features' },
-    { name: 'Why Us', href: '#why-us' },
-    { name: 'Testimonials', href: '#testimonials' },
-    { name: 'FAQ', href: '#faq' },
-    { name: 'Contact', href: '#contact' },
-  ];
+  { name: 'Home', href: '#home' },
+  { name: 'About Me', href: '#about-me' },
+  { name: 'Services', href: '#services' },
+  { name: 'Tools', href: '#tools' },
+  { name: 'Blog', href: '#blog' },
+  { name: 'Features', href: '#features' },
+  { name: 'Why Us', href: '#why-us' },
+  { name: 'Testimonials', href: '#testimonials' },
+  { name: 'FAQ', href: '#faq' },
+  { name: 'Contact', href: '#contact' },
+];
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
