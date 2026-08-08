@@ -15,7 +15,7 @@ import { EligibilityModal } from './components/EligibilityModal';
 import { EmiNoticeModal } from './components/EmiNoticeModal';
 import { LegalModals, LegalModalType } from './components/LegalModals';
 import { FloatingActions } from './components/FloatingActions';
-
+import { Blog } from './components/Blog';
 export default function App() {
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -83,7 +83,8 @@ export default function App() {
 
         {/* Customer Testimonials Section */}
         <Testimonials />
-
+{/* Blog Section */}
+<Blog />
         {/* FAQ Section */}
         <FAQ />
 
