@@ -8,6 +8,7 @@ import { WhyChooseUs } from './components/WhyChooseUs';
 import { Testimonials } from './components/Testimonials';
 import { FAQ } from './components/FAQ';
 import { Contact } from './components/Contact';
+import { AboutMe } from './components/AboutMe';
 import { Footer } from './components/Footer';
 import { ScrollToTop } from './components/ScrollToTop';
 import { EligibilityModal } from './components/EligibilityModal';
@@ -87,6 +88,7 @@ export default function App() {
 
         {/* Contact Section */}
         <Contact initialServiceRequirement={selectedServiceForContact} />
+        <AboutMe />
       </main>
 
       {/* Footer */}
