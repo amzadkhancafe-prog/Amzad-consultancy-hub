@@ -8,5 +8,12 @@
   "background_color": "#ffffff",
   "theme_color": "#b91c4a",
   "orientation": "portrait-primary",
+"icons": [
+  {
+    "src": "/amzad-app-icon.jpg",
+    "sizes": "512x512",
+    "type": "image/jpeg"
+  }
+],
   "lang": "hi-IN"
 }
