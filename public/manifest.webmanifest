@@ -1,0 +1,12 @@
+{
+  "name": "Amzad Consultancy Hub & Advisory",
+  "short_name": "Amzad Consultancy",
+  "description": "Personal Loan, Business Loan aur Financial Consultancy",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#b91c4a",
+  "orientation": "portrait-primary",
+  "lang": "hi-IN"
+}
