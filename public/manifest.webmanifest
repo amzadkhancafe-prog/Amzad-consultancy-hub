@@ -4,6 +4,7 @@
   "description": "Personal Loan, Business Loan aur Financial Consultancy",
   "start_url": "/",
   "scope": "/",
+  "id": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#b91c4a",
